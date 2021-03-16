@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            color: #000;
+        }
+        div > div {
+            margin-left:.5rem ;
+            padding-left: .25rem;
+            border-left: 1px solid #777;
+        }
+    </style>
+    <script defer src="/day13.js"></script>
+</head>
+<body>
+    <div id="grand-parent">
+        Grand Parent
+        <div>
+            parent 1
+            <div> child 1</div>
+            <div> child 2</div> 
+        </div>
+        <div>Parent 2</div>
+    </div>
+</body>
+</html>
